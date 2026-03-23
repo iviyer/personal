@@ -1,0 +1,80 @@
+[
+  {
+    "id": "proj-001",
+    "slug": "analytics-stack-the-ken",
+    "title": "0-to-1 Analytics Stack @ The Ken",
+    "tagline": "Event tracking · Data warehouse · ML workflows",
+    "description": "Built The Ken's entire analytics infrastructure from scratch — Mixpanel for event tracking, BigQuery + dbt for the data warehouse, and ML pipelines for subscriber engagement scoring. Reduced data requests by 95%.",
+    "emoji": "📊",
+    "tags": ["BigQuery", "dbt", "Mixpanel", "Python", "ML"],
+    "status": "live",
+    "links": { "demo": null, "github": null },
+    "featured": true,
+    "year": "2023"
+  },
+  {
+    "id": "proj-002",
+    "slug": "engagement-score-rfv",
+    "title": "Engagement Score — RFV Framework",
+    "tagline": "Quantifying subscriber engagement & renewal propensity",
+    "description": "Developed a bespoke Engagement Score and Customer Activation metric using the RFV (Recency-Frequency-Value) framework to predict subscriber churn and renewal propensity for 50K+ paying subscribers.",
+    "emoji": "🔢",
+    "tags": ["RFV", "Python", "BigQuery", "Product Analytics"],
+    "status": "live",
+    "links": { "demo": null, "github": null },
+    "featured": true,
+    "year": "2024"
+  },
+  {
+    "id": "proj-003",
+    "slug": "behavioral-science-experiment",
+    "title": "Stanford Behavioral Science Study",
+    "tagline": "18-month nudge experiment with 6,000+ salespeople",
+    "description": "Co-led an 18-month behavioral science experiment across India with Prof. Szu-chi Huang (Stanford University), testing strategies for nudging late-starting salespeople out of inefficient behavior patterns.",
+    "emoji": "🧠",
+    "tags": ["Behavioral Economics", "Experiment Design", "R", "Stats"],
+    "status": "live",
+    "links": { "demo": null, "github": null },
+    "featured": true,
+    "year": "2022"
+  },
+  {
+    "id": "proj-004",
+    "slug": "procurement-ml-wns",
+    "title": "Procurement ML Optimizer",
+    "tagline": "Optimizing $400M+ annual procurement spend",
+    "description": "Built multiple machine learning models to optimize resource allocation for the Procurement Department at WNS, covering $400M+ annual spend. Separately improved AP Invoice TAT prediction from 25% to 70% accuracy.",
+    "emoji": "⚙️",
+    "tags": ["XGBoost", "Python", "Finance ML", "Process Optimization"],
+    "status": "live",
+    "links": { "demo": null, "github": null },
+    "featured": false,
+    "year": "2020"
+  },
+  {
+    "id": "proj-005",
+    "slug": "water-atm-research",
+    "title": "Water ATM Market Research",
+    "tagline": "Survey design across 3 metro cities — 1,000+ responses",
+    "description": "Conducted independent market research for a seed-stage water fountain startup. Designed and oversaw a survey across three metro cities, collecting and analyzing over 1,000 responses using Excel and Python.",
+    "emoji": "💧",
+    "tags": ["Market Research", "Survey Design", "Python", "Excel"],
+    "status": "live",
+    "links": { "demo": null, "github": null },
+    "featured": false,
+    "year": "2024"
+  },
+  {
+    "id": "proj-006",
+    "slug": "this-portfolio",
+    "title": "This Portfolio",
+    "tagline": "Open-source, modular, JSON-driven portfolio site",
+    "description": "The site you're on right now. Built with zero frameworks — pure HTML, CSS, and vanilla JS. Content managed via JSON files. Deployable anywhere: GitHub Pages, Netlify, or Vercel.",
+    "emoji": "🌐",
+    "tags": ["HTML", "CSS", "Vanilla JS", "JSON CMS"],
+    "status": "live",
+    "links": { "demo": "#", "github": "#" },
+    "featured": false,
+    "year": "2025"
+  }
+]

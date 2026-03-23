@@ -1,0 +1,57 @@
+[
+  {
+    "id": "job-001",
+    "role": "Product Analyst",
+    "company": "The Ken",
+    "period": "Mar 2023 – Present",
+    "location": "Bengaluru, India",
+    "type": "Full-time",
+    "description": "India's premier business intelligence publication, with 50K+ paying subscribers. Leading AI product development with potential to double revenue by 2026. Built 0-to-1 analytics stack, implemented Mixpanel, BigQuery, and dbt data warehouse. Reduced data requests by 95% and turn-around-time by ~85%.",
+    "highlights": ["AI product lead", "95% fewer data requests", "20% engagement lift", "BigQuery + dbt"],
+    "current": true
+  },
+  {
+    "id": "job-002",
+    "role": "Analyst — Behavior Labs",
+    "company": "Worxogo",
+    "period": "Jan 2021 – Mar 2023",
+    "location": "Remote",
+    "type": "Full-time",
+    "description": "Series A funded behavioral science startup serving 30+ Fortune 500 companies globally. Led experiments using behavioral economics (loss aversion, framing) to improve salesperson behavior. Ran an 18-month experiment with 6,000+ salespeople across India with Prof. Szu-chi Huang (Stanford). Drove ~12% sustained revenue increase for HDFC Bank and Cipla.",
+    "highlights": ["6,000+ experiment participants", "+12% revenue for clients", "Stanford collaboration", "Behavioral economics"],
+    "current": false
+  },
+  {
+    "id": "job-003",
+    "role": "Deputy Manager — Finance & Analytics",
+    "company": "WNS Global Solutions",
+    "period": "Jul 2019 – Jan 2021",
+    "location": "Mumbai, India",
+    "type": "Full-time",
+    "description": "NYSE-listed ($1.35B revenue) business process management leader. Led the CFO Analytics Team building predictive ML models. Optimized $400M+ procurement spend with machine learning. Improved AP Invoice TAT prediction accuracy from ~25% to ~70% using boosting algorithms.",
+    "highlights": ["$400M+ spend optimized", "25%→70% ML accuracy", "CFO Analytics Lead", "Boosting algorithms"],
+    "current": false
+  },
+  {
+    "id": "edu-001",
+    "role": "Post-Graduate Diploma in Liberal Studies",
+    "company": "Young India Fellowship, Ashoka University",
+    "period": "Aug 2018 – Jul 2019",
+    "location": "Sonipat, India",
+    "type": "Education",
+    "description": "Highly selective fellowship program. Managed the entire university internship process for 2018–19 at the Career Development Office — coordinating 100+ recruiters and increasing offers by 330%.",
+    "highlights": ["YIF Fellowship", "+330% offers", "CDO Manager"],
+    "current": false
+  },
+  {
+    "id": "edu-002",
+    "role": "B.Tech., Production Engineering",
+    "company": "Government Engineering College, Thrissur",
+    "period": "Aug 2014 – Jul 2018",
+    "location": "Thrissur, Kerala",
+    "type": "Education",
+    "description": "Captain of the college football team. Co-founded TextMongers during this period — a bootstrapped content startup that reached 10 employees, 4 clients, and $5,000 MRR.",
+    "highlights": ["Football Captain", "Co-founder TextMongers", "$5k MRR startup"],
+    "current": false
+  }
+]

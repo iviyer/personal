@@ -1,0 +1,53 @@
+{
+  "site": {
+    "name": "Indrajith V Iyer",
+    "tagline": "Product · Data · Behavioral Science",
+    "description": "Product Analyst at The Ken. I write about finance, sports, and books — and build things on the side.",
+    "email": "indrajith.v.iyer@gmail.com",
+    "avatar": "assets/indra.webp",
+    "location": "Bengaluru, India",
+    "available": true,
+    "availableText": "Open to opportunities"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "headline": "Indrajith — <em>data thinker,</em> writer & builder",
+    "subheadline": "Product Analyst at The Ken. I turn data into decisions, run behavioral science experiments, and write long-form essays on finance, sports, and books.",
+    "cta_primary":   { "text": "Read my writing",  "href": "pages/blog/index.html" },
+    "cta_secondary": { "text": "Download CV ↓",    "href": "assets/Indrajith_Resume.pdf" },
+    "stats": [
+      { "num": "2+",  "label": "Years @ The Ken" },
+      { "num": "95%", "label": "Data requests cut" },
+      { "num": "6k+", "label": "People in experiments" }
+    ]
+  },
+  "social": {
+    "linkedin":  "https://www.linkedin.com/in/indrajithviyer/",
+    "github":    "",
+    "twitter":   "",
+    "substack":  "",
+    "instagram": ""
+  },
+  "currently": {
+    "items": [
+      { "emoji": "📖", "label": "Reading", "text": "The Courage to Be Disliked — Kishimi & Koga" },
+      { "emoji": "🧠", "label": "Thinking about", "text": "Why prediction markets outperform expert forecasts" },
+      { "emoji": "♟️", "label": "Playing", "text": "Rapid chess — grinding toward 1750 ELO" }
+    ]
+  },
+  "nav": [
+    { "label": "Home",     "href": "index.html" },
+    {
+      "label": "Blog",
+      "href":  "pages/blog/index.html",
+      "dropdown": [
+        { "label": "Finance",  "href": "pages/blog/finance.html",  "icon": "💹", "desc": "Markets, money & economics",  "color": "#2E7D32", "class": "finance" },
+        { "label": "Sports",   "href": "pages/blog/sports.html",   "icon": "🏆", "desc": "Games, athletes & culture",    "color": "#1565C0", "class": "sports"  },
+        { "label": "Books",    "href": "pages/blog/books.html",    "icon": "📚", "desc": "Reviews, notes & ideas",       "color": "#6A1B9A", "class": "books"   }
+      ]
+    },
+    { "label": "Projects", "href": "pages/projects.html" },
+    { "label": "Career",   "href": "pages/career.html" },
+    { "label": "About",    "href": "pages/about.html" }
+  ]
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Indrajith V Iyer — Product Analyst, data thinker, writer on finance, sports, and books.">
+  <title>Indrajith V Iyer — Product · Data · Writing</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <header class="site-header" id="site-header"></header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation"></nav>
+
+  <!-- ── HERO ──────────────────────────────── -->
+  <section class="hero" id="hero-section">
+    <div class="container">
+      <div class="hero__inner">
+
+        <!-- LEFT: copy -->
+        <div class="hero__copy">
+          <div class="hero__eyebrow">Hello, I'm</div>
+          <h1 class="hero__title">Indrajith —<br><em>data thinker,</em><br>writer & builder</h1>
+          <p class="hero__subtitle">
+            Product Analyst at <strong>The Ken</strong>. I turn data into decisions,
+            run behavioral science experiments, and write long-form essays on
+            finance, sports, and books.
+          </p>
+          <div class="hero__actions">
+            <a href="pages/blog/index.html" class="btn btn--primary btn--lg">Read my writing</a>
+            <a href="assets/Indrajith_Resume.pdf" download class="btn btn--secondary btn--lg">Download CV ↓</a>
+          </div>
+
+          <!-- Mini skill ticker -->
+          <div class="hero__skills">
+            <span class="skill-chip skill-chip--data">BigQuery</span>
+            <span class="skill-chip skill-chip--data">dbt</span>
+            <span class="skill-chip skill-chip--data">Mixpanel</span>
+            <span class="skill-chip skill-chip--data">Python</span>
+            <span class="skill-chip skill-chip--science">Behavioral Econ</span>
+            <span class="skill-chip skill-chip--data">ML</span>
+          </div>
+
+          <!-- At-a-glance strip -->
+          <div class="hero__glance">
+            <span class="glance-item">🎓 MBA Candidate</span>
+            <span class="glance-sep">·</span>
+            <span class="glance-item">📍 Bengaluru, India</span>
+            <span class="glance-sep">·</span>
+            <span class="glance-item">✍️ 9 published essays</span>
+          </div>
+        </div>
+
+        <!-- RIGHT: photo + stat cards -->
+        <div class="hero__visual">
+          <div class="hero__photo-blob" data-tip="⚽ C-div footballer · ♟️ 1700 ELO chess · 🚴 100km cyclist">
+            <img src="assets/indra.webp" alt="Indrajith V Iyer" class="hero__photo">
+          </div>
+          <div class="hero__floats">
+            <div class="hero__float hero__float--tl">
+              <div style="font-size:1.1rem;line-height:1;margin-bottom:4px">📉</div>
+              <div class="float-num">95%</div>
+              <div class="float-lbl">Data requests<br>reduced</div>
+            </div>
+            <div class="hero__float hero__float--br">
+              <div style="font-size:1.1rem;line-height:1;margin-bottom:4px">🧪</div>
+              <div class="float-num">6k+</div>
+              <div class="float-lbl">People in<br>experiments</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TICKER ─────────────────────────────── -->
+  <div class="topics-ticker" id="topics-ticker"></div>
+
+  <!-- ── CURRENTLY ────────────────────────── -->
+  <section class="section section--sm section--alt">
+    <div class="container" id="currently-section"></div>
+  </section>
+
+  <!-- ── FEATURED POSTS ─────────────────────── -->
+  <section class="section">
+    <div class="container" id="featured-posts"></div>
+  </section>
+
+  <!-- ── NEWSLETTER ─────────────────────────── -->
+  <section class="section section--sm section--alt">
+    <div class="container container--prose">
+      <div class="newsletter-block reveal">
+        <div class="section-label" style="justify-content:center">Newsletter</div>
+        <h2 class="newsletter-block__title">Ideas worth reading, weekly</h2>
+        <p class="newsletter-block__desc">Essays on finance, sports, and books — distilled to what actually matters. No noise, no filler.</p>
+        <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+          <input type="email" placeholder="your@email.com" required aria-label="Email address">
+          <button type="submit" class="btn btn--primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURED PROJECTS ──────────────────── -->
+  <section class="section">
+    <div class="container" id="featured-projects"></div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────── -->
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script type="module" src="js/home.js"></script>
+  <script>
+    function handleNewsletter(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('button');
+      const input = e.target.querySelector('input');
+      btn.textContent = 'Subscribed! ✓';
+      btn.disabled = true;
+      input.disabled = true;
+    }
+  </script>
+</body>
+</html>
